@@ -1,0 +1,28 @@
+.room {
+    text-decoration: none;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 12px;
+    border: 1px solid bisque;
+    margin-top: -1px;
+}
+
+.room:hover {
+    background-color: bisque;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.supplemental {
+    display: none;
+    border: 1px solid bisque;
+    margin-top: -1px;
+
+}
+
+.header {
+    padding: 5px;
+    border: 1px solid bisque;
+}

@@ -1,0 +1,51 @@
+#logo {
+    font-family: arial;
+}
+
+.red {
+    color: #9d1417;
+}
+
+body {
+    height: 100%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #404040;
+    color: white;
+    height: 30px;
+
+}
+
+.everything {
+    display: flex;
+    flex-flow: column;
+    /* height: 100%; */
+    padding-bottom: 30px;
+    height: calc(100vh - 56px);
+    background-size: cover;
+}
+
+.vert-center {
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.footer hr {
+    padding: 0px;
+    margin: 0px;
+}
+
+.info {
+    padding-top: 10px;
+    font-size: large;
+}
